@@ -39,7 +39,7 @@ public class CheckOverdraw implements IXposedHookLoadPackage {
                 }
             });
         } catch (Throwable e) {
-            Log.d("overdraw", "falied:" + e.toString());
+            Log.d("overdraw", e.toString());
         }
 
     }
