@@ -1,6 +1,8 @@
 # overdraw-xposedmodule
 过渡绘制自动化测试Xposed插件
 
+![](xposed.png)
+
 ## 切换到count模式
 ```
 adb shell setprop debug.hwui.overdraw count
