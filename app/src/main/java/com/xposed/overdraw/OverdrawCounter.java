@@ -20,7 +20,7 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
 
 
-public class CheckOverdraw implements IXposedHookLoadPackage {
+public class OverdrawCounter implements IXposedHookLoadPackage {
 
     private float overDrawCounter;
 
