@@ -1,4 +1,11 @@
 # overdraw-xposedmodule
+
+<p>
+<img src="https://app.travis-ci.com/logan62334/overdraw-xposedmodule.svg">
+<img src="https://img.shields.io/github/v/release/logan62334/overdraw-xposedmodule?include_prereleases">
+<img src="https://img.shields.io/github/downloads/logan62334/overdraw-xposedmodule/total">
+</p>
+
 过渡绘制自动化测试Xposed插件
 
 ![](xposed.png)
