@@ -7,8 +7,5 @@ android:
     - extra-android-m2repository
     - extra-android-support
 
-before_install:
-  - yes | sdkmanager "platforms;android-23"
-
 script:
-  - ./gradlew assembleRelease
+  - ./gradlew assembleDebug
