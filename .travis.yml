@@ -3,12 +3,12 @@ language: android
 android:
   components:
     - build-tools-25.0.0
-    - android-25
+    - android-23
     - extra-android-m2repository
     - extra-android-support
 
 before_install:
-  - yes | sdkmanager "platforms;android-25"
+  - yes | sdkmanager "platforms;android-23"
 
 script:
   - ./gradlew assembleDebug
